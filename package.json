@@ -1,0 +1,50 @@
+{
+  "name": "hlml",
+  "displayName": "HLML",
+  "description": "Highlighting for High Level Mindustry Logic",
+  "version": "0.0.1",
+  "author": {
+    "email": "gecgelcem@outlook.com",
+    "name": "Cem Geçgel",
+    "url": "https://github.com/calestialgem"
+  },
+  "bugs": {
+    "url": "https://github.com/calestialgem/hlml.vscode/issues"
+  },
+  "homepage": "https://github.com/calestialgem/hlml.vscode",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calestialgem/hlml.vscode"
+  },
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "publisher": "calestialgem",
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hlml",
+        "aliases": [
+          "High Level Mindustry Logic",
+          "hlml"
+        ],
+        "extensions": [
+          ".hlml"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "hlml",
+        "scopeName": "source.hlml",
+        "path": "./syntaxes/hlml.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {}
+}
